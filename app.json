@@ -1,5 +1,5 @@
 {
-  "logo":"https://telegra.ph/file/365194bdb7506d1b66f65.jpg",
+  "logo":"https://telegra.ph/file/7fa9017265d3d6f51d191.jpg",
   "name": "MEMBER TAGGER",
   "description": "A member tagger bot for telegram Groups.",
   "env": {
@@ -9,11 +9,11 @@
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal.",
-      "value": ""
+      "value": "8884119"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal.",
-      "value": ""
+      "value": "d94fe90a1d7ee5ce6f36b20d4ca79280"
     }
   },
   "buildpacks": [{
