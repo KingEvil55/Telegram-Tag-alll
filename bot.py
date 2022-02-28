@@ -27,11 +27,11 @@ async def start(event):
   await event.reply("^_^ Hey, Welcome To TAG Help Bot's Menu\nI can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/HwMusicUpdates'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/CFC_BOT_SUPPORT'), 
+                         Button.url('📣 UPDATES', 'https://t.me/mr_Sukkun'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/friend_warriors'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/HwMusicBot?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/mr_sukkun?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -44,8 +44,8 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/HwMusicUpdates'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/CFC_BOT_SUPPORT'), 
+                         Button.url('📣 UPDATES', 'https://t.me/mr_sukkun'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/friend_warriors'), 
                       ], 
                       [
                         Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/HwMusicBot?startgroup=true'),   
@@ -136,5 +136,5 @@ async def cancel_spam(event):
 
 
 print("Started Successfully Join Support")
-print("¯\_(ツ)_/¯ Need Help Join @CFC_BOT_SUPPORT")
+print("¯\_(ツ)_/¯ Need Help Join @mr_sukkun")
 HwBot.run_until_disconnected()
