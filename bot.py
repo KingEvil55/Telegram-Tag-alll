@@ -31,7 +31,7 @@ async def start(event):
                          Button.url('⭐SUPPORT', 'https://t.me/friend_warriors'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/mr_sukkun?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/friend_warriors?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -48,7 +48,7 @@ async def help(event):
                          Button.url('⭐SUPPORT', 'https://t.me/friend_warriors'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/HwMusicBot?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/friend_warriors?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -130,7 +130,7 @@ async def cancel_spam(event):
       spam_chats.remove(event.chat_id)
     except:
       pass
-    return await event.respond('**__Stopped__**\n\n**__Powered By:__ @HwMusicUpdates**')
+    return await event.respond('**__Stopped__**\n\n**__Powered By:__ @mr_sukkun**')
 
 
 
