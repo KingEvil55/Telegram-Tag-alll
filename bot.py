@@ -27,11 +27,11 @@ async def start(event):
   await event.reply("^_^ Hey, Welcome To TAG Help Bot's Menu\nI can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/mr_Sukkun'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/friend_warriors'), 
+                         Button.url('ᴀʙᴏᴜᴛ ᴍᴏɪ ᴍᴀsᴛᴇʀ', 'https://t.me/iiTz_me'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/check_my_groups01'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/friend_warriors?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/ishitamusic_Bot?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -44,11 +44,11 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/mr_sukkun'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/friend_warriors'), 
+                         Button.url('ᴀʙᴏᴜᴛ ᴍᴏɪ ᴍᴀsᴛᴇʀ', 'https://t.me/iiTz_me'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/check_my_grouos01'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/friend_warriors?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/IshitaMusic_bot?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -130,11 +130,11 @@ async def cancel_spam(event):
       spam_chats.remove(event.chat_id)
     except:
       pass
-    return await event.respond('**__Stopped__**\n\n**__Powered By:__ @mr_sukkun**')
+    return await event.respond('**__Stopped__**\n\n**__Powered By:__ @i_am_dead_smile**')
 
 
 
 
 print("Started Successfully Join Support")
-print("¯\_(ツ)_/¯ Need Help Join @mr_sukkun")
+print("¯\_(ツ)_/¯ Need Help Join @check_my_grouos01")
 HwBot.run_until_disconnected()
